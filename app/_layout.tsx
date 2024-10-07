@@ -22,7 +22,7 @@ export default function RootLayout() {
   if(!fontsLoaded) return null;
   //return <Stack onLayout={onLayoutRootView}/>  
   return (
-    <Stack onLayout={onLayoutRootView}>
+    <Stack>
       <Stack.Screen name="index" />
     </Stack>
   );
